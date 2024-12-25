@@ -10,9 +10,9 @@
 
 # Demo :movie_camera:
 
-<!-- ## ![](./public/image/screen.png) -->
+## ![](./public/image/screen.png)
 
-## View live preview [here](Preview).
+## View live preview [here](https://portfolio-brown-chi-13.vercel.app/).
 
 ---
 
