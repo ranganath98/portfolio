@@ -8,6 +8,7 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // export const metadata = {
 //   title: "Portfolio of Abu Said - Software Developer",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
         <Footer />
+        <SpeedInsights />
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
